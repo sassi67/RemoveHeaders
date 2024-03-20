@@ -1,0 +1,7 @@
+<configSchema>
+  <sectionSchema name="system.webServer/removeHeaders">
+    <collection addElement="header" clearElement="clear" removeElement="remove">
+		  <attribute name="name" type="string" caseSensitive="true" required="true" isUniqueKey="true" />
+	  </collection>
+  </sectionSchema>
+</configSchema>

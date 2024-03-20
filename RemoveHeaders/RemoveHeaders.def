@@ -1,0 +1,4 @@
+LIBRARY "RemoveHeaders"
+
+EXPORTS
+	RegisterModule
